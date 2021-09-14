@@ -1,10 +1,4 @@
-+<!DOCTYPE html>
-+###############################
-+* CREATED BY POES        *
-+* xPOESx                 *
-+###############################
-+-->
-+<?php
+<?php
 if (isset($_POST['ajax'])) {
 $to = $_POST['to'];
 $subject = $_POST['sub'];
@@ -32,7 +26,7 @@ exit();
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
 	<link rel="icon" href="https://image.ibb.co/mNLkGK/hak9.png">
-	<title>Email Spoofer - Hak9</title>
+	<title></title>
 	<style>
 	body{
 		margin: 0;
@@ -50,7 +44,7 @@ exit();
 	}
 	#title{
 		color: lime;
-	    text-shadow: 0 0 20px lime;
+	    text-shadow: 0 0 20px blue;
 		text-align: center;
 		font-family: Montserrat;
 	}
@@ -176,4 +170,4 @@ $(document).ready(function(){
 });
 </script>
 </body>
-+</html>
+</html>
